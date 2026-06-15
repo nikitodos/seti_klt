@@ -1,5 +1,7 @@
 # seti_klt
 
+<img src="images/logo_bsrc.png" height="200"> <img src="images/logo_oac_inaf.png" height="200"> <img src="images/logo_bl.png" height="200">
+
 Tools for applying the Karhunen-Loève Transform (KLT) to SETI radio observations, developed as part of my BSc thesis in Physics.
 
 > **Applicazione della trasformata di Karhunen-Loève per la ricerca di segnali telemetrici extraterrestri**
@@ -19,6 +21,12 @@ This work was carried out during an internship at the Osservatorio Astronomico d
 The KLT (proposed for SETI by Claudio Maccone in the 1990s) decomposes a stochastic signal into an optimal eigenbasis, making it effective at isolating strong, narrowband radio-frequency interference (RFI) from the noise floor — RFI that would otherwise mask faint, Doppler-drifting technosignatures. Here the KLT is integrated into the `turboSETI` pipeline as a pre-cleaning step, operating on filterbank (`.fil`) data.
 
 The method was validated on archival data (bright FRBs, Voyager 1) and tested on ON-OFF observations of exoplanet targets such as TOI-1422 b (SRT, C-band 5.7-7.7 GHz and K-band 18.5-18.8 GHz), with synthetic technosignatures injected via `setigen` to quantify detection performance before and after KLT cleaning.
+
+<img src="images/KLT_on_FRBs_Original.png" width="600">
+
+<img src="images/KLT_on_FRBs_RFIs.png" width="600">
+
+<img src="images/KLT_on_FRBs_Cleaned.png" width="600">
 
 ## Scripts
 
