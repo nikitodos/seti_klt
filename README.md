@@ -1,6 +1,6 @@
 # seti_klt
 
-<img src="images/logo_bsrc.png" height="200"> <img src="images/logo_oac_inaf.png" height="200"> <img src="images/logo_bl.png" height="200">
+<img src="images/logo_bsrc.png" height="50"> <img src="images/logo_oac_inaf.png" height="50"> <img src="images/logo_bl.png" height="50">
 
 Tools for applying the Karhunen-Loève Transform (KLT) to SETI radio observations, developed as part of my BSc thesis in Physics.
 
